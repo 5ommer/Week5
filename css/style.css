@@ -110,3 +110,43 @@ body {
     color:#77a3a957;
     transform: scale(1.2);
 }
+
+.origni-image {
+    background-attachment: fixed;
+    background-image: url('../img/image3.jpeg');
+    background-size: cover;
+    background-position: bottom;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.origin-image__link a {
+    background-color: #706039ad;
+    border: 2px solid #474047;
+    color: #d4a776;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+.origin-image__link a:hover {
+    transform: scale(1.2);
+}
+
+.origin-text {
+    background-color: #706039;
+    color: #cebd4b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+}
+.origin-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
